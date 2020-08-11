@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Hieronders schrijf je je styling */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.links{
+    background-image: url("images/afbeelding1.png");
+}
+
+.rechts{
+    display: flex;
+    align-items: center;
+    padding:100px
+}
+
+.tekst > h1{
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.tekst > p{
+    color: gray;
+    max-width: 400px;
+}
+
