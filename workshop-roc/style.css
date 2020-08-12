@@ -4,32 +4,3 @@
 }
 
 /* Hieronders schrijf je je styling */
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-.afbeelding{
-    background-image: url("images/afbeelding1.png");
-}
-
-.rechts{
-    padding: 80px;
-    display: flex;
-    align-items: center;
-}
-
-.portfolio-tekst > p{
-    color: gray;
-}
-
-.portfolio-tekst > h1{
-    text-transform: uppercase;
-    padding-bottom: 40px;
-}
